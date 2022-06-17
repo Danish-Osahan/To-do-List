@@ -3,10 +3,7 @@
     margin: 0px;
     padding: 0px;
     outline: none;
-    /* background: #dde1e7; */
     font-family: 'Fira sans', sans-serif;
-    /* background-image: url("bg-2.png"); */
-    /* display: flex; */
 }
 
 body {
@@ -17,7 +14,6 @@ body {
     background-color: #dde1e7;
     /* background-color: #dde1e7; */
     /* opacity: 80%; */
-    /* background-image: url("bg-2.png"); */
 }
 
 .container {
@@ -124,7 +120,6 @@ h2 {
 
 #tasks {
     margin-top: 2rem;
-    /* border: 2px solid black; */
     height: 100%vh;
     display: flex;
     max-width: 760px;
@@ -134,7 +129,6 @@ h2 {
 
 .task {
     margin-bottom: 20px;
-    /* margin-right: 2em; */
     padding: 20px 0px;
     display: flex;
     justify-content: space-around;
@@ -143,14 +137,9 @@ h2 {
     border-radius: 15px;
     background: #dde1e7;
     box-shadow: -3px -3px 15px #FFFFFF, 3px 3px 5px #00000090;
-    /* border: 3px solid black; */
 }
 
 .content {
-    /* margin-right: 30em; */
-    /* margin-left: -1em; */
-    /* margin-bottom: 30px; */
-    /* border: 3px solid black; */
     margin-bottom: 1.9rem;
     padding-left: 1em;
     border-radius: 5px;
@@ -161,20 +150,17 @@ h2 {
 }
 
 .text {
-    /* padding: 4px 2px; */
     background: transparent;
     font-weight: bolder;
     width: 500px;
 }
 
 .task .actions .edit {
-    /* margin-left: -2em; */
     font-weight: bolder;
     margin-right: 1em;
     border-radius: 5px;
     width: 80px;
     height: 30px;
-    /* background: #dde1e7; */
     background: #7085d4;
     box-shadow: -3px -3px 5px #FFFFFF, 3px 3px 5px #00000090;
 }
@@ -190,7 +176,6 @@ h2 {
     width: 80px;
     height: 30px;
     background: #fc6f60;
-    /* background: #dde1e7; */
     box-shadow: -3px -3px 5px #FFFFFF, 3px 3px 5px #00000090;
 }
 
@@ -200,19 +185,17 @@ h2 {
 }
 
 #svg {
-    /* margin-top: 100px; */
     padding-left: 100px;
     animation-name: float_down;
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     position: absolute;
-    /* animation: float_up 3s ease-out 0 infinite forwards; */
 }
 
 #s {
     height: 500px;
-    /* left: 10px; */
+    position: fixed;
 }
 
 @keyframes float_down {
@@ -223,9 +206,4 @@ h2 {
     50% {
         top: 50px;
     }
-}
-
-:root {
-    --shadow: #E4E4E4;
-    --primary-color: #ECECE4;
 }
